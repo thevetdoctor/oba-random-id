@@ -1,0 +1,23 @@
+{
+  "name": "oba-random-id",
+  "version": "1.0.0",
+  "description": "A simple random ID generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevetdoctor/oba-random-id.git"
+  },
+  "keywords": [
+    "random",
+    "id"
+  ],
+  "author": "obafemi oderanti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thevetdoctor/oba-random-id/issues"
+  },
+  "homepage": "https://github.com/thevetdoctor/oba-random-id#readme"
+}
