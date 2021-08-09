@@ -27,9 +27,4 @@ var randomId = function (length, type) {
     }
     return code;
 };
-console.log(randomId(10));
-console.log(randomId(6, 'numeric'));
-console.log(randomId(14, 'alphanumeric'));
-console.log(randomId(5, 'uppercase'));
-console.log(randomId(15, 'lowercase'));
 exports["default"] = randomId;
