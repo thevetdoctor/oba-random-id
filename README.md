@@ -51,7 +51,7 @@ randomId(5, 'uppercase'); // PLPEZ
 randomId(15, 'lowercase'); // yldnmpykoakqjvz
 
 
-const response = require('oba-random-id'); 
+const randomId = require('oba-random-id'); 
 
 randomId(10); // Cu6QW4rerT
 randomId(6, 'numeric'); // 198026
