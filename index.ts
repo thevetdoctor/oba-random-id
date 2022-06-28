@@ -25,5 +25,4 @@ interface IRandom {
       }
       return code;
     }
-  
-  export default randomId;
+  module.exports = randomId;

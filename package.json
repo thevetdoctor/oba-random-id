@@ -1,6 +1,6 @@
 {
   "name": "oba-random-id",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple random ID generator",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thevetdoctor/oba-random-id/issues"
   },
-  "homepage": "https://github.com/thevetdoctor/oba-random-id#readme"
+  "homepage": "https://github.com/thevetdoctor/oba-random-id#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
 }

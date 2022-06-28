@@ -1,5 +1,3 @@
-"use strict";
-exports.__esModule = true;
 var randomId = function (length, type) {
     var numeric = '0123456789';
     var alphanumeric = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ';
@@ -19,7 +17,7 @@ var randomId = function (length, type) {
         characters = lowercase;
     }
     else {
-        characters = "" + alphanumeric + lowercase;
+        characters = "".concat(alphanumeric).concat(lowercase);
     }
     var code = '';
     for (var i = 0; i < length; i++) {
@@ -27,4 +25,4 @@ var randomId = function (length, type) {
     }
     return code;
 };
-exports["default"] = randomId;
+module.exports = randomId;
